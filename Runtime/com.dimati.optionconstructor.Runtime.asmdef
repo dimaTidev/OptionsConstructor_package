@@ -1,0 +1,15 @@
+{
+    "name": "com.dimati.optionconstructor.Runtime",
+    "references": [
+        "Singleton",
+        "com.dimati.uid_tools.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,0 +1,18 @@
+{
+    "name": "com.dimati.optionconstructor",
+    "displayName": "Option Constructor",
+    "version": "0.0.1",
+    "unity": "2018.4",
+    "description": "",
+    "author": "DimaTi <timofeenkodima@gmail.com> (https://github.com/dimaTidev)",
+    "category": "Menu",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dimaTidev/Package_OptionsConstructor.git"
+    },
+    "dependencies": [
+        "com.dimati.singleton": "https://github.com/dimaTidev/Singleton.git",
+        "com.dimati.uid_tools": "https://github.com/dimaTidev/UID_Tools.git",
+        "com.dimati.uiextensions": ""
+    ]
+}

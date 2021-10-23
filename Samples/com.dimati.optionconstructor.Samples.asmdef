@@ -1,0 +1,14 @@
+{
+    "name": "com.dimati.optionconstructor.Samples",
+    "references": [
+        "com.dimati.optionconstructor.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

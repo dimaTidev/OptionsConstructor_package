@@ -1,0 +1,17 @@
+{
+"name" : "com.dimati.optionconstructor.Editor",
+ "references": [
+     "com.dimati.optionconstructor.Runtime"
+ ],
+ "optionalUnityReferences": [],
+ "includePlatforms": [
+     "Editor"
+ ],
+ "excludePlatforms": [],
+ "allowUnsafeCode": false,
+ "overrideReferences": false,
+ "precompiledReferences": [],
+ "autoReferenced": true,
+ "defineConstraints": []
+
+}

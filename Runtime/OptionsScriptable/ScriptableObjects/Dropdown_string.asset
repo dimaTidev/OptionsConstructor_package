@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc5e9086c977fe4db303a96ef6a53c8, type: 3}
+  m_Name: Dropdown_string
+  m_EditorClassIdentifier: 
+  uid: 204
+  label: DD_string
+  defaultValue: 0
+  values:
+  - opt0
+  - opt1
