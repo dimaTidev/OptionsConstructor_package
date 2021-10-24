@@ -11,9 +11,9 @@
         "url": "https://github.com/dimaTidev/OptionsConstructor_package.git"
     },
     "gitDependencies": {
-        "com.dimati.singleton": "https://github.com/dimaTidev/Singleton.git",
-        "com.dimati.uid_tools": "https://github.com/dimaTidev/UID_Tools.git",
-        "com.dimati.fps": "https://github.com/dimaTidev/FPS.git",
-        "com.dimati.uiextensions": "https://github.com/dimaTidev/UI_Extensions.git"
+        "com.dimatidev.singleton": "https://github.com/dimaTidev/Singleton.git",
+        "com.dimatidev.uid_tools": "https://github.com/dimaTidev/UID_Tools.git",
+        "com.dimatidev.fps": "https://github.com/dimaTidev/FPS.git",
+        "com.dimatidev.uiextensions": "https://github.com/dimaTidev/UI_Extensions.git"
     }
 }
