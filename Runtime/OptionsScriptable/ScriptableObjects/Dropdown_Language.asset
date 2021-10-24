@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cbc5e9086c977fe4db303a96ef6a53c8, type: 3}
-  m_Name: Dropdown_string
+  m_Name: Dropdown_Language
   m_EditorClassIdentifier: 
   uid: 204
-  label: DD_string
+  label: LanguageTest
   defaultValue: 0
+  isSaveValueInsteadID: 1
   values:
-  - opt0
-  - opt1
+  - English
+  - German
+  - Russian

@@ -1,21 +1,20 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &3331761221709420383
+--- !u!114 &442663357938204927
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5064541585132638376}
+  m_GameObject: {fileID: 5796407517194682480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2ba0f9e93d6c624ab8e05e3aa26ea30, type: 3}
+  m_Script: {fileID: 11500000, guid: 1eeae6076290ff244963cc5d0be43421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  save_key: int_option_FPS
-  values: 1e000000310000003b0000003c000000
-  ID_deffaultValue: 1
---- !u!1001 &4870136139431603790
+  option: {fileID: 0}
+  text_label: {fileID: 8909214092515796642}
+--- !u!1001 &6173897788872572566
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -25,7 +24,7 @@ PrefabInstance:
     - target: {fileID: 423037893667897062, guid: 3a5e9d99073bcb144ada768914459e20,
         type: 3}
       propertyPath: m_Name
-      value: Dropdown_FPS
+      value: Dropdown_option
       objectReference: {fileID: 0}
     - target: {fileID: 6940724257618402704, guid: 3a5e9d99073bcb144ada768914459e20,
         type: 3}
@@ -134,9 +133,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a5e9d99073bcb144ada768914459e20, type: 3}
---- !u!1 &5064541585132638376 stripped
+--- !u!1 &5796407517194682480 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 423037893667897062, guid: 3a5e9d99073bcb144ada768914459e20,
     type: 3}
-  m_PrefabInstance: {fileID: 4870136139431603790}
+  m_PrefabInstance: {fileID: 6173897788872572566}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8909214092515796642 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3318577157443115060, guid: 3a5e9d99073bcb144ada768914459e20,
+    type: 3}
+  m_PrefabInstance: {fileID: 6173897788872572566}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

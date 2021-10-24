@@ -36,5 +36,19 @@ namespace OptionsConstructor
             if(text_label && option)
                 text_label.text = option.Label;
         }
+
+        private void OnValidate()
+        {
+            if (!gameObject.transform.parent) //Awoid a requrcively rename in project View
+                return;
+
+            string temp;
+            if (option)
+                temp = typeof(T).Name + "_" + option.name;
+            else
+                temp = typeof(T).Name + "_Empty";
+            if (name != temp)
+                name = temp;
+        }
     }
 }

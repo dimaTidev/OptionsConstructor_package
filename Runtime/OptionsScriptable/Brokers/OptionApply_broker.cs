@@ -32,6 +32,15 @@ namespace OptionsConstructor
                 onChange_string?.Invoke((string)value);
         }
 
+        [ContextMenu("CheckReturnType")]
+        void CheckReturnType()
+        {
+            if (!option)
+                return;
+
+            IConvertible value = option.Get_GenValue();
+            Debug.Log("option return type: " + value.GetType());
+        }
 
         #region Test
         //------------------------------------------------------------------------------------------------------------

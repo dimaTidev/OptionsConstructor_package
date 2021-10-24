@@ -8,7 +8,7 @@ namespace OptionsConstructor
 {
     public class UI_ResolutionTimerApply : MonoBehaviour
     {
-        [SerializeField] Text text_header;
+        [SerializeField] Text text_header = null;
         [SerializeField] float timer = 12;
         float sec;
 

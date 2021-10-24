@@ -8,22 +8,13 @@ namespace OptionsConstructor
 { 
     public abstract class ASInt : AOptionsScriptable
     {
-     //  public enum SaveType 
-     //  { 
-     //      @int = 0, 
-     //      @float = 1,
-     //      @string = 2
-     //  };
-     //
-     //  [SerializeField] SaveType saveType;
-
         [SerializeField] protected int defaultValue = 0;
 
-        public int CurId => Parse(LoadID());
+        public int CurId => ParseLoadData(LoadID());
 
         public override IConvertible Get_GenValue() => CurId;
 
-        int Parse(string data)
+        protected virtual int ParseLoadData(string data)
         {
             if (data == "")
                 return defaultValue;

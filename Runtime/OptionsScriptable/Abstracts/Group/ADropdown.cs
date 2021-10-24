@@ -13,6 +13,8 @@ namespace OptionsConstructor
 
     public abstract class ADropdown<T> : ADropdown where T : IConvertible
     {
+        [SerializeField] bool isSaveValueInsteadID = false;
+
         [SerializeField] protected T[] values = new T[0];
         /// <summary>
         /// Return -999 when value not Exist
@@ -21,7 +23,7 @@ namespace OptionsConstructor
         {
             get
             {
-                if(values == null)
+                if(values == null || values.Length == 0)
                 {
                     T tempValue = default; //NOTSAFE:
                     Debug.LogError("Option values is Null");
@@ -52,12 +54,40 @@ namespace OptionsConstructor
             return labels;
         }
 
-        public override void SetValue(IConvertible id)
+        /// <summary>
+        /// data All Time come in - int
+        /// </summary>
+        /// <param name="data"></param>
+        public override void SetValue(IConvertible data)
         {
-            if (values == null || (int)id < 0 || (int)id >= values.Length)
+            if (values == null)
                 return;
 
-            base.SetValue(id); //Save id
+            if (data is int id)
+            {
+                if (id < 0 || id >= values.Length)
+                    return;
+
+                if (isSaveValueInsteadID)
+                {
+                    base.SetValue(values[id]);
+                    return;
+                }
+            }
+            base.SetValue(data); //Save id
+        }
+
+        protected override int ParseLoadData(string data)
+        {
+            if (!isSaveValueInsteadID)
+                return base.ParseLoadData(data);
+            else if (data is T value)
+            {
+                for (int i = 0; i < values.Length; i++)
+                    if (values[i].Equals(value))
+                        return i;
+            }
+            return defaultValue;
         }
 
         private void OnValidate()
