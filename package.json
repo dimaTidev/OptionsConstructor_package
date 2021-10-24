@@ -10,10 +10,10 @@
         "type": "git",
         "url": "https://github.com/dimaTidev/OptionsConstructor_package.git"
     },
-    "dependencies": [
+    "gitDependencies": {
         "com.dimati.singleton": "https://github.com/dimaTidev/Singleton.git",
         "com.dimati.uid_tools": "https://github.com/dimaTidev/UID_Tools.git",
         "com.dimati.fps": "https://github.com/dimaTidev/FPS.git",
         "com.dimati.uiextensions": "https://github.com/dimaTidev/UI_Extensions.git"
-    ]
+    }
 }
