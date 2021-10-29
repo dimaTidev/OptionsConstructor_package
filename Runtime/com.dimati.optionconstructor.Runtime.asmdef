@@ -1,8 +1,10 @@
 {
     "name": "com.dimati.optionconstructor.Runtime",
     "references": [
-        "Singleton",
-        "com.dimati.uid_tools.Runtime"
+        "com.dimati.uid_tools.Runtime",
+        "com.dimati.singleton.Runtime",
+        "com.dimati.uiextensions.Runtime",
+        "com.dimati.fps.Runtime"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],
