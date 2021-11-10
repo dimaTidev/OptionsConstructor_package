@@ -14,9 +14,9 @@
 * Copy hiden folder from package to `asset/$your_folder$` <br />
 ![](Documents~/ResourcesForCopy.png)
 * Configure exist prefabs for your project and add to scene.
-* For apply options use `Option_ApplyBroker.cs` with unity events, which automaticly enable when you select option scriptableObject:
+* For apply options use `Option_ApplyBroker.cs` with unity events, which automaticly enable when you select option scriptableObject: <br />
 ![](Documents~/OptConstr_broker.png)
-* For apply deffault system options (FPS, Resolution, Fog...) use `OptionApply_Singleton.cs`
+* For apply deffault system options (FPS, Resolution, Fog...) use `OptionApply_Singleton.cs` <br />
 ![](Documents~/OptConst_opnApplStandart.png)
 
 
