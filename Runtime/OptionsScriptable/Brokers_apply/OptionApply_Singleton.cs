@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace OptionsConstructor
 {
-    public class AOptionApply_Singleton : Singleton<AOptionApply_Singleton>
+    public class OptionApply_Singleton : Singleton<OptionApply_Singleton>
     {
         List<ABase> list = new List<ABase>();
 
