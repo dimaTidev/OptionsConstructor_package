@@ -24,7 +24,7 @@
 * Create option scriptableObject files <br />
 ![](Documents~/CreateMenu.png)
 * Configure and drop to:
-    - `UI_Option$type$.cs` for apply! 
+    - `UI_Option$type$.cs` for user can change! 
     - `Option_ApplyBroker` for apply! 
     - if it's deffault system option (FPS, Resolution, Fog...) drop to `OptionApply_Singleton.cs`
 
