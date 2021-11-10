@@ -16,7 +16,7 @@ namespace OptionsConstructor
             base.Awake();
             dropdown = GetComponent<Dropdown>();
 
-            Debug.Log("UI_Option_Dropdown: Awake " + name + " opt:" + option.name);
+           // Debug.Log("UI_Option_Dropdown: Awake " + name + " opt:" + option.name);
 
             if (option)
                 SetupDropdown(dropdown, option.Labels(), option.CurId);

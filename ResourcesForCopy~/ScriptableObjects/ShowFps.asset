@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4874829aeed7d9b42a0bbbc601d6b1da, type: 3}
-  m_Name: testOption
+  m_Script: {fileID: 11500000, guid: 2bec93b0add4c57439a81197f9528a14, type: 3}
+  m_Name: ShowFps
   m_EditorClassIdentifier: 
-  uid: 0
-  uids: 540370954
-  names:
-  - Empty
-  - Full
-  - Half
+  uid: 214
+  label: '{Settings.Title}'
+  defaultValue: 0

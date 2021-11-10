@@ -129,7 +129,7 @@ PrefabInstance:
     - target: {fileID: 6950957366851741384, guid: 94023db6c1b7a7549b43e5099ef39c77,
         type: 3}
       propertyPath: m_Name
-      value: AToggle_Empty Variant
+      value: AToggle_Empty
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94023db6c1b7a7549b43e5099ef39c77, type: 3}
