@@ -13,9 +13,11 @@
 ## How to add to project
 * Copy hiden folder from package to `asset/$your_folder$` <br />
 ![](Documents~/ResourcesForCopy.png)
+
 * Configure exist prefabs for your project and add to scene.
 * For apply options use `Option_ApplyBroker.cs` with unity events, which automaticly enable when you select option scriptableObject: <br />
 ![](Documents~/OptConstr_broker.png)
+
 * For apply deffault system options (FPS, Resolution, Fog...) use `OptionApply_Singleton.cs` <br />
 ![](Documents~/OptConst_opnApplStandart.png)
 
@@ -23,6 +25,7 @@
 ## How to create and configure files
 * Create option scriptableObject files <br />
 ![](Documents~/CreateMenu.png)
+
 * Configure and drop to:
     - `UI_Option$type$.cs` for user can change! 
     - `Option_ApplyBroker` for apply! 
