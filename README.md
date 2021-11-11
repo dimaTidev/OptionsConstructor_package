@@ -10,7 +10,7 @@
   </ol>
 </details>
 
-## How to add to project
+## :hammer: How to add to project
 * Copy hiden folder from package to `asset/$your_folder$` <br />
 ![](Documents~/ResourcesForCopy.png)
 
