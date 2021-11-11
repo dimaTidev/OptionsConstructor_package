@@ -13,6 +13,8 @@ TextureImporter:
     21300016: Package_optConstr_fon
     21300018: Package_optConstr_fonSelected
     21300020: Package_optConstr_fonNotSelected
+    21300022: OptionConstructor_Toggle_IOS_On
+    21300024: OptionConstructor_Toggle_IOS_Off
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -228,7 +230,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 202
-        y: 111
+        y: 116
         width: 50
         height: 50
       alignment: 0
@@ -299,6 +301,46 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d9d7e1f11afa5a04497437b6e261664b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionConstructor_Toggle_IOS_On
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 56
+        width: 86
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c848d8ff8e35f9f45a04d07ac26f5b93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OptionConstructor_Toggle_IOS_Off
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1
+        width: 86
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23aeb0a1d429e347af754199ebaf552
       vertices: []
       indices: 
       edges: []
