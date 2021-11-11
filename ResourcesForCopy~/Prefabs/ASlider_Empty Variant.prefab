@@ -135,7 +135,7 @@ PrefabInstance:
     - target: {fileID: 7730775156574759637, guid: c5a738596f0752a4aae54aa608a8fc01,
         type: 3}
       propertyPath: m_Name
-      value: ASlider_Empty
+      value: ASlider_Empty Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7730775156994677852, guid: c5a738596f0752a4aae54aa608a8fc01,
         type: 3}
