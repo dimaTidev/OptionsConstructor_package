@@ -48,8 +48,8 @@ public class OptionApply_brokerEditor : Editor
 
         for (int i = 0; i < events.Length; i++)
         {
-            GUI.color = idSelected == i || idSelected == -1 ? Color.white : Color.grey;
-            GUI.enabled = idSelected == i || idSelected == -1;
+            GUI.color = idSelected >= i || idSelected == -1 ? Color.white : Color.grey;
+            GUI.enabled = idSelected >= i || idSelected == -1;
             EditorGUILayout.PropertyField(events[i]);
         }
         GUI.enabled = true;
@@ -71,7 +71,7 @@ public class OptionApply_brokerEditor : Editor
             if (returnType == typeof(int))
             {
                 if (opt is AToggle)
-                    idSelected = 0;
+                    idSelected = 1;
                 else
                     idSelected = 1;
             }
