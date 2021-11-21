@@ -15,7 +15,7 @@ namespace OptionsConstructor
         {
             get
             {
-                Debug.Log($"lastId:{lastId} != CurId:{CurId}");
+               // Debug.Log($"lastId:{lastId} != CurId:{CurId}");
                 return lastId != CurId;
             }
         }
@@ -25,9 +25,9 @@ namespace OptionsConstructor
         {
             get
             {
-                Debug.Log($"Value   lastId:{lastId} != CurId:{CurId}");
+                //Debug.Log($"Value   lastId:{lastId} != CurId:{CurId}");
                 GenerateResolutions();
-                Debug.Log($"Value  gen lastId:{lastId} != CurId:{CurId}");
+               // Debug.Log($"Value  gen lastId:{lastId} != CurId:{CurId}");
 
                 if (values == null || values.Count == 0)
                     return new Vector2Int(Screen.width, Screen.height);
@@ -38,7 +38,7 @@ namespace OptionsConstructor
                         return values[defaultValue];
                     else
                     {
-                        Debug.LogError("defaultValue is out of Range of values");
+                        //Debug.LogError("defaultValue is out of Range of values");
                         return new Vector2Int(Screen.width, Screen.height);
                     }
                 }
