@@ -12,7 +12,11 @@ namespace OptionsConstructor
 
         private void OnValidate()
         {
-            defaultValue = Mathf.Clamp(defaultValue, 0, 1);
+            if (defaultValue < 0)
+                defaultValue = 0;
+            if (defaultValue > 1)
+                defaultValue = 1;
+           // defaultValue = Mathf.Clamp(defaultValue, 0, 1);
         }
 
         public override void SetValue(IConvertible id)

@@ -47,6 +47,7 @@ namespace OptionsConstructor
                 temp = typeof(T).Name + "_" + option.name;
             else
                 temp = typeof(T).Name + "_Empty";
+
             if (name != temp)
                 name = temp;
         }

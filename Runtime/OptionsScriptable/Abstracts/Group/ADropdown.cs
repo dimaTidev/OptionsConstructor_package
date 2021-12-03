@@ -93,7 +93,14 @@ namespace OptionsConstructor
         private void OnValidate()
         {
             if(values != null)
-                defaultValue = Mathf.Clamp(defaultValue, 0, values.Length);
+            {
+                if (defaultValue < 0)
+                    defaultValue = 0;
+                if (defaultValue >= values.Length)
+                    defaultValue = values.Length - 1;
+                //defaultValue = Mathf.Clamp(defaultValue, 0, values.Length);
+            }
+                
         }
     }
 }

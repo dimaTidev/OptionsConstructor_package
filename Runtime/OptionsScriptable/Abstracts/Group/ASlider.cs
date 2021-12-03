@@ -12,7 +12,12 @@ namespace OptionsConstructor
 
         private void OnValidate()
         {
-            defaultValue = Mathf.Clamp(defaultValue, minMaxValues.x, minMaxValues.y);
+            if (defaultValue < minMaxValues.x)
+                defaultValue = minMaxValues.x;
+            if (defaultValue > minMaxValues.y)
+                defaultValue = minMaxValues.y;
+            
+            //defaultValue = Mathf.Clamp(defaultValue, minMaxValues.x, minMaxValues.y);
         }
     }
 }
